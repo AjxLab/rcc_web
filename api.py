@@ -9,7 +9,7 @@ api = Flask(__name__)
 
 @api.route('/', methods=['POST'])
 def get_query():
-    ## -----*----- 推論結果を返す -----*-----
+    ## -----*----- 推論結果を返す -----*----- ##
     text = request.form['text']
     question = request.form['question']
     choices = request.form.getlist('choices')
