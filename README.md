@@ -13,6 +13,16 @@ RCCのWeb班の成果物
 - Flask
 
 
+## Usage
+### APIを起動
+```sh
+$ python api.py
+```
+### POSTリクエストで推論結果を得る
+1. {text: 対象のテキスト, question: 問題文, choices: 選択肢}
+2. 推論結果をjsonで受け取る
+
+
 ## Installation
 ```sh
 $ git clone https://github.com/AjxLab/rcc_web
