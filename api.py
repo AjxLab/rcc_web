@@ -3,7 +3,7 @@ from flask import Flask, jsonify, abort, make_response, request
 from engine import BotEngine
 from nltk.tokenize import sent_tokenize
 
-ai = XReadingAI('./model/English.model')
+ai = BotEngine('./model/English.model')
 api = Flask(__name__)
 
 
