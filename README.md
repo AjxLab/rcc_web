@@ -17,4 +17,5 @@ RCCのWeb班の成果物
 ```sh
 $ git clone https://github.com/AjxLab/rcc_web
 $ cd rcc_web
+$ pip install -r requirements.txt
 ```
